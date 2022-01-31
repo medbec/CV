@@ -670,4 +670,35 @@ nav figure img {
   font-size: 1.5rem;
   color: #e40909;
 }
+
+footer {
+  background: black;
+  padding: 3%;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+}
+
+footer section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 1%;
+}
+
+footer section figure a img {
+  width: 50px;
+  height: 50px;
+  padding: 2%;
+}
 /*# sourceMappingURL=main.css.map */
