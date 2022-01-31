@@ -31,4 +31,12 @@
     @content;
   }
 }
+///
+@mixin grid-column-repeat($repeatvalue, $min, $max, $column-gap: 1rem, $row-gap: 1rem) {
+  display: grid;
+  grid-template-columns: repeat($repeatvalue, minmax($min, $max));
+  column-gap: $column-gap;
+  row-gap: $row-gap;
+  @content;
+}
 

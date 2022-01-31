@@ -608,4 +608,43 @@ nav figure img {
 .bouton a:link {
   text-decoration: none;
 }
+
+.parcours {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1%;
+  background-color: #e9e3db;
+}
+
+.parcours h1 {
+  text-align: center;
+  padding: 1%;
+}
+
+.parcours article {
+  width: 60%;
+  background: white;
+  border-radius: 2rem;
+  margin: 1% auto;
+  padding: 3%;
+}
+
+.parcours article:hover {
+  -webkit-box-shadow: 5px 5px 5px #b17b7b;
+          box-shadow: 5px 5px 5px #b17b7b;
+}
+
+.parcours article h2 {
+  color: yellowgreen;
+  padding: 1%;
+}
+
+.parcours article ul li {
+  color: yellowgreen;
+  margin-top: 1%;
+}
+
+.parcours article H2 + p {
+  margin-bottom: 2%;
+}
 /*# sourceMappingURL=main.css.map */
