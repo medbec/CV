@@ -652,4 +652,22 @@ nav figure img {
   text-align: center;
   padding: 3%;
 }
+
+.contact article {
+  width: 350px;
+  margin: 3% auto;
+  padding: 3%;
+  background-color: aqua;
+  border-radius: 3rem;
+}
+
+.contact article img {
+  width: 50px;
+  height: 50px;
+}
+
+.contact article p {
+  font-size: 1.5rem;
+  color: #e40909;
+}
 /*# sourceMappingURL=main.css.map */
