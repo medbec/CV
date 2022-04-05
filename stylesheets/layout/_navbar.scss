@@ -1,0 +1,26 @@
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1% 1%;
+    background-color: black;
+    li figure a img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+    li a {
+        font-size: 1.2rem;
+        color: white;
+        &:link{
+            text-decoration: none;
+        }
+        &:hover{
+            background: white;
+            color: red;
+            padding: 12%;
+            border-radius: 2rem;
+        }
+    }
+}
